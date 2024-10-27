@@ -13,7 +13,6 @@ function alert (msg,success){
         myAlert.classList.remove('show')
         myAlert.classList.remove(success? 'alert-success':'alert-danger')    
     },1000)
-    
 }
 
 loginBtn.addEventListener('click',function(){
